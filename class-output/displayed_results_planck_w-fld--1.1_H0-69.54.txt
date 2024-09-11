@@ -1,0 +1,39 @@
+Reading input parameters
+ -> matched budget equations by adjusting Omega_Lambda = 0.0198368
+Running CLASS version v3.2.3
+Computing background
+ -> non-cold dark matter species with i=1 has m_i = 6.000000e-02 eV (so m_i / omega_i =9.400753e+01 eV)
+ -> ncdm species i=1 sampled with 11 (resp. 5) points for purpose of background (resp. perturbation) integration. In the relativistic limit it gives Delta N_eff = 0.999997
+ -> age = 13.797310 Gyr
+ -> conformal age = 14174.867795 Mpc
+ -> N_eff = 3.044 (summed over all species that are non-relativistic at early times)
+ -> radiation/matter equality at z = 3404.338930
+    corresponding to conformal time = 112.732492 Mpc
+Computing thermodynamics using HyRec 2020
+ -> with primordial helium mass fraction Y_He = 0.2454
+ -> recombination (maximum of visibility function) at z = 1088.588103
+    corresponding to conformal time = 280.622298 Mpc
+    with comoving sound horizon = 144.503503 Mpc
+    angular diameter distance = 12.751833 Mpc
+    sound horizon angle 100*theta_s = 1.040024
+    Thomson optical depth crosses one at z_* = 1084.946140
+    giving an angle 100*theta_* = 1.042365
+ -> baryon drag stops at z = 1059.699025
+    corresponding to conformal time = 286.295952 Mpc
+    with comoving sound horizon rs = 147.068430 Mpc
+ -> reionization at z = 7.662338
+    corresponding to conformal time = 5123.409956 Mpc
+Computing sources
+Computing primordial spectra (analytic spectrum)
+Computing linear Fourier spectra.
+ -> sigma8=0.836657 for total matter (computed till k = 8.21623 h/Mpc)
+ -> sigma8=0.840213 for baryons+cdm  (computed till k = 8.21623 h/Mpc)
+Computing non-linear matter power spectrum with Halofit (including update Takahashi et al. 2012 and Bird 2014)
+ -> [WARNING:] Non-linear corrections could not be computed at redshift z= 3.34 and higher.
+    This is because k_max is too small for the algorithm (Halofit or HMcode) to be able to compute the scale k_NL at this redshift.
+    If non-linear corrections at such high redshift really matter for you,
+    just try to increase the precision parameter nonlinear_min_k_max (currently at 5.000000e+00) until k_NL can be computed at the desired z.
+Computing transfers
+Computing unlensed harmonic spectra
+Computing lensed spectra (fast mode)
+Writing output files in output/thesis/planck_w-fld--1.1_H0-69.5400_..
