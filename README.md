@@ -2,6 +2,6 @@ The provided code files are the ones used in my bachelor´s thesis: "Investigati
 
 All code not commented out produces data or plots of the benchmark model. Commented code can be implemented again to test the impact of changes to the benchmark model, as done in the thesis.
 
-The simulated CMB data (class-output) is produced by "The Cosmic Linear Anisotropy Solving System (CLASS)". http://dx.doi.org/10.1088/1475-7516/2011/07/034.
+The simulated CMB data (/class-output) is produced by "The Cosmic Linear Anisotropy Solving System (CLASS)". http://dx.doi.org/10.1088/1475-7516/2011/07/034.
 
-The measured Planck values are from the Planck Legacy Archive: https://pla.esac.esa.int/pla/#cosmology.
+The measured Planck values (/planck-data) are from the Planck Legacy Archive: https://pla.esac.esa.int/pla/#cosmology.
