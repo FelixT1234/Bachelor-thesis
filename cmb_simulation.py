@@ -76,9 +76,5 @@ ax1.grid(which="major", axis="both")
 if spectrum == "TT":
     ax0.legend(loc="upper right")
 
-filename = "planck_simulated"
-# filename = "planck_w-fld--1.1_w--1.2"
-# filename = "planck_w-fld--1.1_H0-69.54"
-
-plt.savefig(f"{filename}_{spectrum}.pdf", bbox_inches="tight")
+plt.savefig(f"[filename]_{spectrum}.pdf", bbox_inches="tight")
 plt.show()
