@@ -44,7 +44,6 @@ class RungeKutta():
                 break
             if n/abs(self.h) < 100:
                 self.h *= self.stepIncreaseFactor
-                print("HIer", self.t[-1], self.a[-1])
                 continue
             n += self.h
             self.t.append(n/H_0)
