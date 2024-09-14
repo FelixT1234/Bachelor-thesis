@@ -61,8 +61,8 @@ t_mLambda = getTimeForScaleFactor(a_mLambda, benchmark_t, benchmark_a)
 # ------- plot graphs, including settings:
 fig, axs = plt.subplots()
 axs.loglog(benchmark_t, benchmark_a, label="Benchmark model", color="red")
-# axs.loglog(change_w1_t, change_w1_a, label="$w_\Lambda^{(1)} = -1.1$", color="#ffc31f", zorder=4)
-# axs.loglog(change_w2_t, change_w2_a, label="$w_\Lambda^{(2)} = -1.2$", color="#b51f92", zorder=4)
+# axs.loglog(change_w1_t, change_w1_a, label="$w_{\Lambda}^{(1)} = -1.1$", color="#ffc31f", zorder=4)
+# axs.loglog(change_w2_t, change_w2_a, label="$w_{\Lambda}^{(2)} = -1.2$", color="#b51f92", zorder=4)
 # axs.loglog(change_w1_H0_t, change_w1_H0_a, label="$H_0 = 69.54$\n$w_{\Lambda}^{(1)} = -1.1$", color="#4a0134", zorder=5)
 
 axs.set_xscale("log", base=10)
