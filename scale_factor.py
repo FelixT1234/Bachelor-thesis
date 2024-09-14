@@ -85,15 +85,15 @@ axs.hlines(y=a_mLambda, xmin=10**(-10), xmax=t_mLambda, color="black", linewidth
 
 
 # axs.vlines(x=t_mLambda_w1, ymin=10**(-6), ymax=a_mLambda_w1, color="#ffc31f", linewidth=1, linestyle="dashed")
-# axs.text(t_mLambda_w1-10**9.9, 10**(-2), r"$t_{m\Lambda^{(1)}}$", color="#ffc31f")
+# axs.text(t_mLambda_w1-10**9.9, 10**(-2), r"$t_{m\Lambda}^{(1)}$", color="#ffc31f")
 # axs.hlines(y=a_mLambda_w1, xmin=10**(-10), xmax=t_mLambda_w1, color="#ffc31f", linewidth=1, linestyle="dashed")
 
 # axs.vlines(x=t_mLambda_w2, ymin=10**(-6), ymax=a_mLambda_w2, color="#b51f92", linewidth=1, linestyle="dashed")
-# axs.text(t_mLambda_w2-10**9.9, 10**(-4), r"$t_{m\Lambda^{(2)}}$", color="#b51f92")
+# axs.text(t_mLambda_w2-10**9.9, 10**(-4), r"$t_{m\Lambda}^{(2)}$", color="#b51f92")
 # axs.hlines(y=a_mLambda_w2, xmin=10**(-10), xmax=t_mLambda_w2, color="#b51f92", linewidth=1, linestyle="dashed")
 
 # axs.vlines(x=t_mLambda_w1_H0, ymin=10**(-6), ymax=a_mLambda_w1_H0, color="#4a0134", linewidth=1, linestyle="dashed")
-# axs.text(t_mLambda_w1_H0-10**9.9, 10**(-4), r"$t_{m\Lambda^{(2)}}$", color="#4a0134")
+# axs.text(t_mLambda_w1_H0-10**9.9, 10**(-4), r"$t_{m\Lambda}^{(2)}$", color="#4a0134")
 # axs.hlines(y=a_mLambda_w1_H0, xmin=10**(-10), xmax=t_mLambda_w1_H0, color="#4a0134", linewidth=1, linestyle="dashed")
 # ------
 
